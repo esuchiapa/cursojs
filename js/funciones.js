@@ -1,8 +1,9 @@
-function saludar(){
-    //document.write("Hola");
-    return 3;
+function sumaIterativa(num){
+    let suma=0;
+    for(let i=0;i<num;i++){
+        suma=suma+i;
+    }
+    return suma;
 }
 
-let num=saludar();
-
-document.write(num);
+document.write(sumaIterativa(5));
